@@ -5,13 +5,16 @@ To create a SSH keypair named jupyter
 ```
 ssh-keygen -t rsa -b 4096 -C jupyter -f jupyter
 ```
-pic
+![](https://github.com/Jinn42/Google-cloud-platform/blob/main/ssh_key.png)
+
 2.create VM instance
-pic
+![](https://github.com/Jinn42/Google-cloud-platform/blob/main/conf1.png)
+![](https://github.com/Jinn42/Google-cloud-platform/blob/main/spasted-image-2.png)
+![](https://github.com/Jinn42/Google-cloud-platform/blob/main/conf3.png)
 
 3.install notebook package
 connect by SSH:
-pic
+![](https://github.com/Jinn42/Google-cloud-platform/blob/main/connect_ssh.png)
 ```
 sudo apt-get update
 sudo apt install python3-pip
@@ -21,6 +24,7 @@ source ~/.bashrc
 jupyter notebook --no-browser
 ```
 4.access jupyter notebook
+![](https://github.com/Jinn42/Google-cloud-platform/blob/main/jupyter_browse.png)
 access by the url given on the last image:
 http://localhost:8888/?token=058cc4458cf60ad2b3efa9c07343449715a29300f9763d3a
 
