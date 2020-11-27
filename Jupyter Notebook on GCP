@@ -1,11 +1,26 @@
-1.To generate an SSH keypair
+# Jupyter notebook
+## Objective: To run youy own Jupyter Notebook on Google Cloud Platform (GCP)
+1.To generate an SSH keypair(if you don't have yet )
+To create a SSH keypair named jupyter
+```
 ssh-keygen -t rsa -b 4096 -C jupyter -f jupyter
+```
+pic
 2.create VM instance
+pic
+
 3.install notebook package
-3.access jupyter notebook
+connect by SSH:
+pic
+```
 sudo apt-get update
 sudo apt install python3-pip
 pip3 install Jupyter
 export PATH=$PATH:~/.local/bin
-ssh -i private_key -N -f -L 8888:localhost:8888 username@your_remote_host_name
+source ~/.bashrc
+jupyter notebook --no-browser
+```
+4.access jupyter notebook
+access by the url given on the last image:
+http://localhost:8888/?token=058cc4458cf60ad2b3efa9c07343449715a29300f9763d3a
 
