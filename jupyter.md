@@ -18,6 +18,8 @@ ssh-keygen -t rsa -b 4096 -C jupyter -f jupyter
 3. Install notebook package
 connect by SSH:
 ![](https://github.com/Jinn42/Google-cloud-platform/blob/main/connect_ssh.png)
+
+Run the following codes:
 ```
 sudo apt-get update
 sudo apt install python3-pip
