@@ -1,0 +1,11 @@
+1.To generate an SSH keypair
+ssh-keygen -t rsa -b 4096 -C jupyter -f jupyter
+2.create VM instance
+3.install notebook package
+3.access jupyter notebook
+sudo apt-get update
+sudo apt install python3-pip
+pip3 install Jupyter
+export PATH=$PATH:~/.local/bin
+ssh -i private_key -N -f -L 8888:localhost:8888 username@your_remote_host_name
+
