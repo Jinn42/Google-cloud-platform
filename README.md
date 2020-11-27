@@ -1,6 +1,4 @@
-# Google-cloud-platform
-
-# Jupyter notebook
+# Jupyter notebook on Google-cloud-platform
 ## Objective: To run youy own Jupyter Notebook on Google Cloud Platform (GCP)
 1. To generate an SSH keypair(if you don't have yet )
 To create a SSH keypair named jupyter
